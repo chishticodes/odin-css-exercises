@@ -46,3 +46,22 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* solution */
+
+.header, .links {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.header{
+  justify-content: space-around;
+}
+
+.profile-image{
+  margin-right: 10px;
+}
+
